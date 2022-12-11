@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KANTOR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/form.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@1,500&family=Raleway&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="header__title">KANTOR</h1>
+        </header>
+        <main>
+            <form class="js-form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Sprawdź kurs</legend>
+
+                    <label>
+                        <span class="form__labelText">Mam* : </span>
+                        <div class="form__fieldsContainer">
+                            <input name="number"  placeholder="0.00" type="number" min="1" step=0.01 required class="form__field js-howMuch">
+                            <select name="currencyFrom" class="form__select js-currencyForm">
+                                <option value=pln>PLN</option>
+                                <option value=eur>EUR</option>
+                                <option value=usd>USD</option>
+                        </div>
+                        </select>
+                    </label>
+
+                    <p>
+                        <label>
+                            <span class="form__labelText">Otrzymam : </span>
+                            <div class="form__fieldsContainer"><input name="total" value="0.00"
+                                    class="form__field form__field--total js-total" readonly>
+                                <select name="chooseCurrencyTo" class="form__select js-currencyTo">
+                                    <option value=pln>PLN</option>
+                                    <option value=eur>EUR</option>
+                                    <option value=usd>USD</option>
+                                </select>
+                            </div>
+                        </label>
+                    </p>
+                    <span class="form__fieldsContainer">
+                        <button class="form__button ">Przelicz!</button></span>
+                </fieldset>
+            </form>
+        </main>
+        <footer class="footer"> Copyright by Adam </footer>
+    </div>
+</body>
+
+
+</html>

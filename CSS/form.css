@@ -12,7 +12,6 @@
 .form__labelText {
     font-weight: 700;
     margin-left: 10px;
-    
 }
 
 .form__fieldsContainer {
@@ -83,8 +82,7 @@
     font-weight: 700;
     border: solid 2px rgb(207, 28, 28);
     border-radius: 20px;
-     margin: 30px 60px 40px 0;
-    
+    margin: 30px 60px 40px 0;
 }
 
 .form__button:focus {

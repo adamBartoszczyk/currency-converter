@@ -12,6 +12,8 @@ html{
 }
 body{
     font-family: 'Lato', sans-serif;
+    background-image: url("../images/waluty.jpg");
+    background-size: cover;
 }
 .header__title{
     text-align: center;
@@ -21,7 +23,7 @@ body{
 }
 .footer{
     text-align: center;
-    background-color: hsl(348, 83%, 80%);;
+    background-color: hsl(348, 83%, 80%);
     padding: 15px 0;
     color: white;
     margin: 10px 0;

@@ -25,22 +25,23 @@
             <h1 class="header__title">KANTOR</h1>
         </header>
         <main>
-            <form class="js-form">
+            <form class="js-form form">
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">Sprawdź kurs</legend>
-
-                    <label>
-                        <span class="form__labelText">Mam* : </span>
-                        <div class="form__fieldsContainer">
-                            <input name="number" placeholder="0.00" type="number" min="1" step=0.01 required
-                                class="form__field js-amount">
-                            <select name="currencyFrom" class="form__select js-currencyForm">
-                                <option value=pln>PLN</option>
-                                <option value=eur>EUR</option>
-                                <option value=usd>USD</option>
-                        </div>
-                        </select>
-                    </label>
+                    <p>
+                        <label>
+                            <span class="form__labelText">Mam* : </span>
+                            <div class="form__fieldsContainer">
+                                <input name="number" placeholder="0.00" type="number" min="1" step=0.01 required
+                                    class="form__field js-amount">
+                                <select name="currencyFrom" class="form__select js-currencyForm">
+                                    <option value=pln>PLN</option>
+                                    <option value=eur>EUR</option>
+                                    <option value=usd>USD</option>
+                            </div>
+                            </select>
+                        </label>
+                    </p>
                     <p>
                         <label>
                             <span class="form__labelText">Otrzymam : </span>

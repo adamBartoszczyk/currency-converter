@@ -1,10 +1,8 @@
-
 .form__legend {
     font-size: 20px;
     padding: 10px;
     background-color: hsl(348, 83%, 80%);
     color: white;
-    
 }
 
 .form__fieldset {
